@@ -30,4 +30,4 @@ for x in range(1, 995):
         solution = product
     product = 1
 
-print solution
+print (solution)

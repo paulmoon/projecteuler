@@ -12,4 +12,4 @@ for x in range(2, len(primes)):
     if primes[x] == 1:
         solution += x
 
-print solution
+print (solution)

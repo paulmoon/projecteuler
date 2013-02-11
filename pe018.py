@@ -1,6 +1,5 @@
 def chunks(l):
-    j = 1
-    i = 0
+    i, j = 1, 0
     while i < len(l):
         yield l[i:i+j]
         i += j

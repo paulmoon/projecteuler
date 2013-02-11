@@ -16,4 +16,4 @@ while len(primes) <= 10000:
         primes.append(curr)
     curr += 2
 
-print primes[-1]
+print(primes[-1])

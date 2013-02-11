@@ -9,4 +9,4 @@ for x in range(999, 100, -1):
         if is_palindrome(x*y) and x*y > sol:
             sol = x*y
 
-print sol
+print (sol)

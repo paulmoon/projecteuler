@@ -18,6 +18,6 @@ if __name__ == '__main__':
 
     while curr > 0:
         if number % curr == 0 and check_prime(curr):
-            print curr
+            print (curr)
             break
         curr -= 2
