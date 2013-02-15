@@ -1,12 +1,16 @@
+import time
+
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
 
-sol = 0
+start = time.clock()
+solution = 0
 
 for x in range(999, 100, -1):
     for y in range(999, x, -1):
-        if x*y < sol: break
-        if is_palindrome(x*y) and x*y > sol:
-            sol = x*y
+        if x*y < solution: break
+        if is_palindrome(x*y):
+            solution = x*y
 
-print (sol)
+print (solution)
+print (time.clock() - start)
