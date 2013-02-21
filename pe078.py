@@ -27,5 +27,5 @@ while True:
         print (n)
         print (time.clock() - start)
         break
-    p[n] = summation
+    p.append(summation)
     n += 1
